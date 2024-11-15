@@ -296,18 +296,76 @@
         <div style="flex: 1;">
           <h3 style="text-align: left;">Register</h3>
           <p style="text-align: left; font-family: Montserrat;">
-            We extend a warm welcome to be part of our Youth Parliament – a platform <br> fostering informed dialogue, civic awareness, and leadership development. <br> Your voice matters. Register today to contribute to meaningful discussions <br> and positively impact our shared future.
+            We extend a warm welcome to be part of our Youth Parliament – a platform fostering <br>
+            informed dialogue, civic awareness, and leadership development. Your voice matters.<br>
+            Register today to contribute to meaningful discussions and positively impact<br> 
+            our shared future.
           </p>
           <a class="cta-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSfkGqy8qdBOL8_6yPie-dUFxpaiEEgfXeQxawUgEUf-UtaPcw/viewform">Register Now</a>
         </div>
     
         <!-- Right side: Image -->
         <div style="flex: 0.5; text-align: right;">
-          <img src="img/register.webp" alt="reg" style="max-width: 100%; height: auto; margin-left: 20px;">
+          <img src="img/register.webp" alt="reg" style="max-width: 70%; height: auto; margin-left: 20px;">
         </div>
       </div>
     </section>
-    <!-- #call-to-action -->
+    
+    <!-- CSS for Mobile Optimization -->
+    <style>
+  /* Mobile responsiveness */
+  @media (max-width: 768px) {
+    #call-to-action .container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 20px;
+    }
+    
+    #call-to-action div {
+      width: 100%;
+    }
+
+    #call-to-action h3 {
+      text-align: center;
+      font-size: 1.6rem;
+      margin-bottom: 10px;
+    }
+
+    #call-to-action p {
+      font-size: 1rem;
+      line-height: 1.6;
+      text-align: justify; /* Distribute text evenly */
+      padding: 0 10px;
+    }
+
+    .cta-btn {
+      display: inline-block;
+      background-color: #007bff;
+      color: #fff;
+      padding: 12px 24px;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+      margin-top: 15px;
+    }
+
+    .cta-btn:hover {
+      background-color: #0056b3;
+    }
+
+    /* Adjust image on mobile */
+    #call-to-action img {
+      max-width: 80%;
+      height: auto;
+      display: block;
+      margin: 20px auto;
+      transform: translateX(10%); /* Move image slightly to the right */
+    }
+  }
+</style>
+
+    
 
     
 
