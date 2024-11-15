@@ -298,7 +298,7 @@
     
         <!-- Right side: Image -->
         <div style="flex: 0.5; text-align: right;">
-          <img src="your-image.jpg" alt="Youth Parliament" style="max-width: 100%; height: auto; margin-left: 20px;">
+          <img src="register.webp" alt="reg" style="max-width: 100%; height: auto; margin-left: 20px;">
         </div>
       </div>
     </section>
@@ -443,41 +443,59 @@
     <!--==========================
       Clients Section
     ============================-->
-    <section id="testimonials" class="section-bg wow fadeInUp">
-      <div class="container">
+    <!-- Faculty Coordinators Section -->
+<section id="testimonials" class="section-bg wow fadeInUp py-5">
+  <div class="container">
+    <header class="section-header text-center mb-5">
+      <h3>Faculty Coordinators</h3>
+    </header>
 
-        <header class="section-header">
-          <h3>Faculty Coordinators</h3>
-        </header>
-        <div class="row">
-          <div class="col-lg-3 col-md-6 wow fadeInUp">
-            <div class="member">
-              <img src="img/atulkumarsinghhss-67335fd1ed0de.webp" class="img-fluid" alt="" style="object-fit: cover; height: 300px; width: 30rem;">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4 style="text-align: center;"><b>Dr.Atul Kumar Singh</b></h4>
-                  
-                  
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 wow fadeInUp">
-            <div class="member">
-              <img src="img/juit-faculty-profileb998bfa183-fotor-20241112193022-67335fd236754.webp" class="img-fluid" alt="" style="object-fit: cover; height: 300px; width: 30rem;">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4 style="text-align: center;"><b>Prof. Dr. Anupriya Kaur</b></h4>
-                  
-                  
-                </div>
-              </div>
-            </div>
+    <div class="row justify-content-center">
+      <!-- Faculty Coordinator 1 -->
+      <div class="col-lg-3 col-md-6 col-sm-12 mb-4 wow fadeInUp">
+        <div class="member">
+          <img src="img/atulkumarsinghhss-67335fd1ed0de.webp" 
+               class="img-fluid rounded" 
+               alt="Dr. Atul Kumar Singh" 
+               style="object-fit: cover; width: 100%; max-height: 300px;">
+          <div class="member-info mt-3 text-center">
+            <h4><b>Dr. Atul Kumar Singh</b></h4>
           </div>
         </div>
-
       </div>
-    </section><!-- #testimonials -->
+
+      <!-- Faculty Coordinator 2 -->
+      <div class="col-lg-3 col-md-6 col-sm-12 mb-4 wow fadeInUp">
+        <div class="member">
+          <img src="img/juit-faculty-profileb998bfa183-fotor-20241112193022-67335fd236754.webp" 
+               class="img-fluid rounded" 
+               alt="Prof. Dr. Anupriya Kaur" 
+               style="object-fit: cover; width: 100%; max-height: 300px;">
+          <div class="member-info mt-3 text-center">
+            <h4><b>Prof. Dr. Anupriya Kaur</b></h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Optional Custom CSS for Media Queries -->
+<style>
+  /* Ensure images and text scale properly on smaller screens */
+  @media (max-width: 576px) {
+    .section-header h3 {
+      font-size: 1.5rem;
+    }
+    .member-info h4 {
+      font-size: 1.2rem;
+    }
+    .member img {
+      max-height:  150px;
+    }
+  }
+</style>
+
 
     <!--==========================
       Team Section
